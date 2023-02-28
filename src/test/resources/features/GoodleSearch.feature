@@ -1,4 +1,4 @@
-@regression
+
 Feature: Google search functionality
   Agile story: As a user, when I am on the Google search page I should be able to search anything and see relevant results
 
