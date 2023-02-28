@@ -9,7 +9,7 @@ Feature: Bing Search Functionality
     When user searches for orange on Bing search box
     Then user should see title as a orange - Search
 
-    @wip
+
   Scenario: Search result title verification
     When user searches for "orange" on Bing search box
     Then user should see title as a "orange - Search"
