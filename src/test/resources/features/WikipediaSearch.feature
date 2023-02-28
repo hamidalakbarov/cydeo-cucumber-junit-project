@@ -1,4 +1,4 @@
-@wikiSearch
+@wikiSearch @regression
 Feature: Wikipedia Search Functionality
 
   # using Background for pre-conditions for all the scenarios in current feature file
