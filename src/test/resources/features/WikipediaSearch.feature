@@ -1,4 +1,4 @@
-@wikiSearch @regression
+@wikiSearch
 Feature: Wikipedia Search Functionality
 
   # using Background for pre-conditions for all the scenarios in current feature file
@@ -11,7 +11,7 @@ Feature: Wikipedia Search Functionality
     When user types "Steve Jobs" in the wiki search box
     And user clicks wiki search button
     Then user sees "Steve Jobs" is in the "wiki title"
-  @scenarioOutline
+  @scenarioOutline @regression
   Scenario: Wikipedia Search Functionality Header Verification
     When user types "Steve Jobs" in the wiki search box
     And user clicks wiki search button
