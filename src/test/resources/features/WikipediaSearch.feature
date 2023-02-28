@@ -17,7 +17,7 @@ Feature: Wikipedia Search Functionality
     And user clicks wiki search button
     Then user sees "Steve Jobs" is in the "main header"
 
-  @scenarioOutline @regression
+  @scenarioOutline
   Scenario: Wikipedia Search Functionality Image Header Verification
     When user types "Steve Jobs" in the wiki search box
     And user clicks wiki search button
