@@ -19,8 +19,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 // First plugin will be storing html reports for execution of scenarios in target folder
                 // Second plugin will be storing failed scenarios/test in the rerun.txt file inside the target folder
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
                 // the plugin for Maven Cucumber Report
+                "json:target/cucumber.json"
         }
 
 
