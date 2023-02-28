@@ -1,4 +1,4 @@
-
+@regression
 Feature: Google search functionality
   Agile story: As a user, when I am on the Google search page I should be able to search anything and see relevant results
 
@@ -7,7 +7,7 @@ Feature: Google search functionality
 
   Scenario: Search page default title verification
     Then user should see title is Google
-  @regression
+
   Scenario: Google Search Title Verification
     When user searches for given keyword
     Then user should see keyword in title of the page
