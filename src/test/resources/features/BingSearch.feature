@@ -1,4 +1,4 @@
-@bing @regression
+@bing
 Feature: Bing Search Functionality
   US: As a user, when I am on the Bing search page I should be able to search anything and see relevant results
 
