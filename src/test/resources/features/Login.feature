@@ -6,7 +6,7 @@
 # Each step will have its own definition, definition into Java code, a regular method
 # If we have same steps in multiple scenarios we will use one step definition for both.
 
-@regression
+@regression @smoke
 Feature: Library login feature
 
   User Story:

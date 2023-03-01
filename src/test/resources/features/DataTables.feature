@@ -1,4 +1,4 @@
-@datatables
+@datatables @smoke
 Feature: Cucumber Data Tables implementation practice
 
   US: As a user, I want to be able to enter my favorite pets into table

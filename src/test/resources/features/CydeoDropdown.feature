@@ -1,4 +1,4 @@
-@regression
+@regression @smoke
 Feature: Cydeo Dropdowns
 
   @scenarioOutline @wip
